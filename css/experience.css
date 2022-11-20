@@ -1,0 +1,165 @@
+.dark .experience p {
+  color: #949494;
+}
+
+.dark .experience .experience-text strong {
+  color: #f5f5f5;
+}
+
+.dark .experience .companies {
+  background-color: #000000;
+}
+
+.experience {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.experience .subtitle {
+  color: #e0e0e0;
+}
+
+.experience-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 3rem;
+  max-width: 60ch;
+  color: #525252;
+}
+
+.experience-text strong {
+  color: #141414;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f5f5f5;
+  padding: 20px;
+  gap: 10px 20px;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.companies::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  display: block;
+  background: linear-gradient(#b6f829, #67dd0a);
+  left: -4px;
+  top: 20px;
+  position: absolute;
+}
+
+.companie-year {
+  position: absolute;
+  top: 22px;
+  left: -90px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+  margin-left: -20px;
+}
+
+.dark .companie-year {
+  color: #949494;
+}
+
+.companie-title {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+  align-self: center;
+  margin: 0;
+}
+
+.companie-text {
+  font-size: 0.875rem;
+  color: #525252;
+  line-height: 1.4;
+}
+
+.companie-habilites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.companie-habilites li {
+  background-color: #ffff;
+  line-height: 1.4;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  padding: 5px 10px;
+}
+
+.dark .companie-title {
+  color: #f5f5f5;
+}
+
+.dark .companies .companie-habilites li {
+  background-color: #575757;
+}
+
+@media (max-width: 800px) {
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: -10px;
+  }
+
+  .experience .subtitle {
+    color: #141414;
+  }
+
+  .dark .experience .subtitle {
+    color: #f5f5f5;
+  }
+
+  .experience-text {
+    font-size: 1.25rem;
+  }
+
+  .companie-year {
+    position: initial;
+    order: 1;
+    width: initial;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .companie-year::before {
+    content: "Ano: ";
+  }
+}
+
+@media (max-width: 600px) {
+  .experience {
+    grid-template-columns: 1fr;
+    margin-top: -30px;
+    gap: 20px;
+  }
+
+  .experience-text {
+    font-size: 0.875rem;
+  }
+
+  .companies {
+    font-size: 0.875rem;
+    gap: 20px;
+    margin-top: -20px;
+  }
+
+  .companie-title {
+    font-size: 1rem;
+  }
+}

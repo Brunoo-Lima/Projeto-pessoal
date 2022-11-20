@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Pessoal</title>
+  <meta name="description" content="Desenvolvedor Front End, Localizado em São Paulo">
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../projeto-pessoal/css/estilizacao.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Portfólio</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#experience">Experiência</a></li>
+        <li><a href="#formation">Formação</a></li>
+        <li><a href="#copy">Contato</a></li>
+        <li><input type="checkbox" class="checkbox" value="Tema" id="theme">
+          <label class="label" for="theme">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introduce">
+    <img src="./imagens/perfile.jpg" alt="bruno" width="600" height="800">
+
+    <div class="content-text">
+      <h1>Desenvolvedor<br>Front End</h1>
+      <p>Localizado em São Paulo ❄</p>
+    </div>
+  </main>
+
+  <section class="experience" id="experience" aria-label="Experiência">
+    <h2 class="subtitle">Experiência</h1>
+
+      <div>
+        <p class="experience-text">
+          Meu nome é Bruno Lima, tenho 22 anos, sou estudante de Análise e Desenvolvimento de Sistemas, desenvolvo pequenos projetos utilizando <strong>HTML5</strong>, <strong>CSS3</strong> e atualmente estou estudando <strong>JavaScript</strong>. Ainda tenho um longo caminho para percorrer, mas com foco e dedicação, sei que terei resultados incriveis.
+        </p>
+
+        <div class="companies">
+          <span class="companie-year">2020-2022</span>
+          <h3 class="companie-title">Morada Logistica</h3>
+          <span class="companie-title">Auxiliar de Logistica</span>
+          <p class="companie-text">
+            Trabalho com relatórios, separação de notas fiscais, pagamento de serviços, manifestação de cargas e CTE, planilhas e etc..
+          </p>
+
+          <ul class="companie-habilites">
+            <li>Microsoft Excel</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Outlook</li>
+          </ul>
+        </div>
+
+        <div class="companies">
+          <span class="companie-year">2019-2020</span>
+          <h3 class="companie-title">Kimberly Clark</h3>
+          <span class="companie-title">Aprendiz Administrativo</span>
+          <p class="companie-text">
+            Trabalhei como aprendiz na área da Gerência de fábrica, onde auxiliava os gerentes e toda a fábrica quando era necessário e efetuava pagamento de serviços via SAP.
+          </p>
+
+          <ul class="companie-habilites">
+            <li>Microsoft Excel</li>
+            <li>Microsoft Outlook</li>
+            <li>Microsoft Word</li>
+            <li>SAP</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <section class="formation" id="formation" aria-label="formation">
+    <div class="container">
+      <h2 class="subtitle">Formação</h2>
+
+      <article>
+        <p class="formation-text"">
+          Estou cursando o Tecnólogo em Análise e Desenvolvimento de Sistemas na <strong>Fatec de Mogi das Cruzes</strong>🎓. Além disso me mantenho sempre atualizado com cursos intensivos online.
+        </p>
+
+        <ul class=" graduation-list">
+          <li class="graduation">
+            <span class="graduation-type">Tecnólogo</span>
+            <h3 class="graduation-course">Análise e Desenvolvimento de Sistemas
+            </h3>
+            <span class="graduation-location">Fatec
+            </span>
+          </li>
+
+          <li class="graduation">
+            <span class="graduation-type">Técnico</span>
+            <h3 class="graduation-course">Logistica
+            </h3>
+            <span class="graduation-location">Braz Cubas
+            </span>
+          </li>
+
+          <li class="graduation">
+            <span class="graduation-type">Projeto Pescar</span>
+            <h3 class="graduation-course">Processos Industriais
+            </h3>
+            <span class="graduation-location">Kimberly Clark
+            </span>
+          </li>
+          </ul>
+
+        <div class="courses-complementary">
+          <div class="courses">
+            <h3>CURSOS Onlines</h3>
+            <ul>
+              <li>JavaScript Completo ES6 <span>37h</span>
+              </li>
+              <li>HTML e CSS para Iniciantes <span>23h</span>
+              </li>
+              <li>CSS Flexbox <span>3h</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="languages">
+            <h3>IDIOMAS</h3>
+            <ul>
+              <li>Inglês <span>/ Intermediário</span></li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="copy" id="copy" aria-label="Rodapé">
+    <div class="copy-container">
+      <p class="copy-text">
+        Estou disponível para novos projetos no momento. 👋
+      </p>
+
+      <ul class="copy-contact">
+        <li>bruno2.jean.lima@outlook.com</li>
+        <li><a href="https://www.linkedin.com/in/bruno-lima-8a2407173/" target="_blank">@Linkedin</a></li>
+      </ul>
+      <p class="copy-footer">
+        Desenvolvido por <strong>Bruno Lima</strong>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+
+</html>
