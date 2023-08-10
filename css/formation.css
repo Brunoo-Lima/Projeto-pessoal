@@ -14,11 +14,11 @@
 }
 
 .formation .container::after {
-  content: "";
+  content: '';
   display: block;
   width: 130px;
   height: 100px;
-  background: url("../imagens/detalhe.svg") no-repeat center;
+  background: url('../imagens/detalhe.svg') no-repeat center;
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -81,7 +81,7 @@
 }
 
 .graduation-course::before {
-  content: "";
+  content: '';
   width: 4px;
   height: 20px;
   display: block;
@@ -109,7 +109,7 @@
 }
 
 .courses-complementary h3::before {
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   display: block;
@@ -119,11 +119,15 @@
 }
 
 .courses h3::before {
-  background: url("../imagens/cursos.svg") no-repeat center center;
+  background: url('../imagens/cursos.svg') no-repeat center center;
 }
 
 .languages h3::before {
-  background: url("../imagens/idiomas.svg") no-repeat center center;
+  background: url('../imagens/idiomas.svg') no-repeat center center;
+}
+
+.languages ol {
+  list-style: decimal;
 }
 
 .courses-complementary li {
